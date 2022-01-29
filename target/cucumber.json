@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-26T02:28:14.342Z",
+        "line": 5,
+        "name": "1. Sky Blue Background",
+        "description": "",
+        "id": "the-background-color-will-change-to-sky-blue;1.-sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3015563300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "ScenarioStepsDefination.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50821000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the button",
+            "match": {
+              "location": "ScenarioStepsDefination.user_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5981471800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should able to change background color will change to sky blue",
+            "match": {
+              "location": "ScenarioStepsDefination.user_Should_able_to_change_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "the background color will change to sky blue",
+    "description": "",
+    "id": "the-background-color-will-change-to-sky-blue",
+    "keyword": "Feature",
+    "uri": "classpath:features/scenarioTest.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-26T02:28:23.406Z",
+        "line": 5,
+        "name": "2. White Background Change",
+        "description": "",
+        "id": "the-background-will-change-to-white;2.-white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2269763800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyWhite Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "scensrioTest_2StepDefination.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4154368400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the button",
+            "match": {
+              "location": "scensrioTest_2StepDefination.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5889076300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "scensrioTest_2StepDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarios2"
+          }
+        ]
+      }
+    ],
+    "name": "the background will change to white",
+    "description": "",
+    "id": "the-background-will-change-to-white",
+    "keyword": "Feature",
+    "uri": "classpath:features/scenarioTest_2.feature",
+    "tags": []
+  }
+]

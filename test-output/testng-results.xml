@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4246" started-at="2022-01-24T23:52:55 CST" finished-at="2022-01-24T23:52:59 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4246" started-at="2022-01-24T23:52:55 CST" finished-at="2022-01-24T23:52:59 CST">
+      <class name="steps.ScenarioStepsDefination">
+        <test-method status="PASS" signature="beforeRun()[pri:1, instance:steps.ScenarioStepsDefination@a3d8174]" name="beforeRun" duration-ms="3076" started-at="2022-01-24T23:52:55 CST" finished-at="2022-01-24T23:52:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRun -->
+        <test-method status="PASS" signature="set_SkyBlue_Background_button_exists()[pri:2, instance:steps.ScenarioStepsDefination@a3d8174]" name="set_SkyBlue_Background_button_exists" duration-ms="97" started-at="2022-01-24T23:52:58 CST" finished-at="2022-01-24T23:52:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_SkyBlue_Background_button_exists -->
+        <test-method status="PASS" signature="user_click_on_the_button()[pri:3, instance:steps.ScenarioStepsDefination@a3d8174]" name="user_click_on_the_button" duration-ms="54" started-at="2022-01-24T23:52:58 CST" finished-at="2022-01-24T23:52:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_click_on_the_button -->
+        <test-method status="PASS" signature="user_Should_able_to_change_background_color_will_change_to_sky_blue()[pri:4, instance:steps.ScenarioStepsDefination@a3d8174]" name="user_Should_able_to_change_background_color_will_change_to_sky_blue" duration-ms="986" started-at="2022-01-24T23:52:58 CST" finished-at="2022-01-24T23:52:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Should_able_to_change_background_color_will_change_to_sky_blue -->
+      </class> <!-- steps.ScenarioStepsDefination -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
